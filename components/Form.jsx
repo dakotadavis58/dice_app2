@@ -21,7 +21,7 @@ function Form({
         <select
           name="dieType"
           id="dieType"
-          className="rounded p-1"
+          className="rounded p-1 w-1/2"
           onChange={handleSelect}
           defaultValue="d6"
         >

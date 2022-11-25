@@ -37,7 +37,11 @@ input {
 }
 
 #dieType {
-  @apply bg-slate-500 border-2 border-green-500 focus:outline-none focus:border-green-600 text-center rounded-lg p-1 md:p-2 w-1/2;
+  @apply bg-slate-500 border-2 border-green-500 focus:outline-none focus:border-green-600 text-center rounded-lg p-1 md:p-2;
+}
+
+.die {
+  @apply rounded-lg;
 }
 
 .rolloutput {
